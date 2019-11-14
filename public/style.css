@@ -1,0 +1,103 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #efefef;
+}
+
+#container{
+    margin-top: 100px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 320px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1),
+                0 1px 1px -2px rgba(0, 0, 0, 0.1);
+}
+
+#cover{
+    width: 100%;
+    height: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 20px;
+    background: #7159c1;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2),
+                0 1px 1px -2px rgba(0, 0, 0, 0.2);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 185px;
+    align-self: flex-end;
+}
+
+#text{
+    text-align: end;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+#title{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#artist{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#row{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    position: absolute;
+    align-self: stretch;
+    margin-top: 50px;
+}
+
+#row i{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 166, 0);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2),
+                0 1px 1px -2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-self: stretch;
+    margin-right: 429px;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+#row #before{
+    margin-left: -85px;
+}
